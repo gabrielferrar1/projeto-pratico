@@ -17,12 +17,15 @@ clara e previsível o impacto de cada mudança em um projeto.
   versão antiga pode parar de funcionar.
 - **MINOR**: incrementado quando novas funcionalidades são adicionadas de
   forma compatível com versões anteriores (sem quebrar nada que já existia).
+- **PATCH**: incrementado quando são feitas correções de bugs compatíveis,
+  sem adicionar funcionalidades novas.
 ### Quando incrementar cada parte
 
 | Parte  | Quando incrementar                                        | Exemplo         |
 |--------|-----------------------------------------------------------|-----------------|
 | MAJOR  | Mudança que quebra compatibilidade com versões anteriores | `1.0.0 → 2.0.0` |
 | MINOR  | Nova funcionalidade adicionada sem quebrar nada existente | `1.0.0 → 1.1.0` |
+| PATCH  | Correção de bug sem adicionar funcionalidade              | `1.0.0 → 1.0.1` |
 
 
 O primeiro número (`MAJOR`) começa em `0` durante o desenvolvimento inicial
